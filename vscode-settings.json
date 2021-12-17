@@ -1,0 +1,85 @@
+{
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Pro",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.tabSizing": "shrink",
+  // Editor Settings
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [
+    85,
+    120
+  ],
+  "editor.parameterHints.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  // VSCode stuff
+  "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "editor.detectIndentation": false,
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+  "terminal.integrated.tabs.enabled": false,
+  //"security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+  // Extensions
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "material-icon-theme.folders.associations": {
+    "domain": "core",
+    "infra": "app",
+    "main": "public",
+    "presentation": "connection",
+    "cryptography": "secure",
+    "entities": "class",
+    "repositories": "mappings",
+    "protocols": "resource",
+    "useCases": "components",
+    "adapters": "connection",
+    "factories": "container",
+    "globals": "global",
+    "ui": "views"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".lintstagedrc.json": "tune"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "polacode.transparentBackground": true,
+  "polacode.shadow": "rgba(0, 0, 0, 0) 0px 0 0",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.defaultDateShortFormat": "D MMM, YYYY",
+  "gitlens.defaultTimeFormat": "hh:mm",
+  "gitlens.defaultDateFormat": "Do MMM, YYYY hh:mm",
+  "importCost.debug": true,
+  "importCost.timeout": 100000
+}
