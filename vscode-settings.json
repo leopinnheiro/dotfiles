@@ -81,5 +81,7 @@
   "gitlens.defaultTimeFormat": "hh:mm",
   "gitlens.defaultDateFormat": "Do MMM, YYYY hh:mm",
   "importCost.debug": true,
-  "importCost.timeout": 100000
+  "importCost.timeout": 100000,
+  
+  "editor.guides.bracketPairs": true
 }
